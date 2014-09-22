@@ -11,5 +11,10 @@ The server-side scripts is in appserver/indexserver.php
 The client-side codes has 3 main parts as below:
 
 1- CSS codes: AppClient/css/homepage.css
+
 2- Html and UI codes: AppClient/index.html
+
 3- front end scripts like jquery scripts, DOM manipulations and Ajax calls: AppClient/ajaxhandler.js
+
+
+Images are just the the static images. Custom images about each restaurant are loaded dynamically from Server. It needs more graphical assets like App logo and splash screens which are binded inside XDK at the build time.
